@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HTML Basics</title>
+</head>
+<body>
+   <!--  FONT SIZE -->
+    <h1> 36px </h1>
+    <h2> 30px </h2>
+    <h3> 24px </h3>
+    <h4> 18px </h4>
+    <h5> 14px </h5>
+   <h6> 12px </h6>
+   <hr>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis rem nulla c
+    ulpa consecteturquae quam eaque! Odio dolorum obcae 
+    cati, hic numquam eius deserunt, enim soluta officia vero saepe commodi ut!</p>
+<hr>
+<!--for Bold Text-->
+im <b>Ansh</b> 
+
+<br><!--br and hr are "Void tag"&"Empty tag"-->
+
+<!--for Priority-->
+im <strong>Ansh</strong>
+<br>
+<!--for ITALIC-->
+<i>Ansh</i> 
+<br>
+<!--for Highlight-->
+<mark>Ansh</mark>
+<br>
+<!--For Delete effect-->
+<del>Ansh</del>
+<br>
+<!--for lower (chemical form)-->
+<h3>H<sub>2</sub>O</h3>
+<!--for upper (power)-->
+<h3>34<sup>2</sup></h3>
+
+<!--for Line-->
+<hr>
+<!--for Opposite direction-->
+<bdo dir="rtl">Im Ansh</bdo>
+<hr>
+<!--to wright as it is-->
+<pre>
+   <b>to,
+    The Principle
+    im <i>Ansh</i></b> 
+</pre>
+<hr>
+<br>
+<!--for LInk Uses -->
+<a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjLktn_56f7AhXNwzgGHbN5BT8QPAgI">Google</a>
+<br><br>
+
+<!--to Open in new Tab (use atb "Target")-->
+<a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjLktn_56f7AhXNwzgGHbN5BT8QPAgI" target="_blank">Google</a>
+<br><br>
+ <!--to Make animation of Small Block(use atb "title")-->
+ <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjLktn_56f7AhXNwzgGHbN5BT8QPAgI" title="Google" target="_blank">Google</a>
+<br><hr>
+<!--TO touch a phone No./Email and use it 
+    (to Call use "tel:no."and for mail use "Mailto:email.add" in anchor Tag) -->
+<a href="tel:5456573265"><b>phone</b></a>
+<br><br>
+<a href="mailto:imaayush23@gmail.com"><b>Mail</b></a>
+<br><hr>
+
+<!--To make any file Downloadable ("type file Name in Anchor Tag")--> 
+
+<a href="Class Notes.pdf"Download>Download</a>
+</a>
+<br><hr>
+
+<!--to add image   (Absolute Path "via Link")-->
+<h3 style="color: blue;">Images and Clickable Images</h3>
+<img src="https://play-lh.googleusercontent.com/W2ugxAFmpfKvA5-hi6e-5H5gFUmWhlRGFSH1wCjwu5RsmkaTS6L8cgMkM0bA-XYW6w=w526-h296-rw" alt="google image ss">
+
+<br><hr>
+
+<!--to add a Download link via Photo-->
+<a href="Class Notes.pdf"Download title="Click To Download"> <img src="https://img.freepik.com/premium-vector/download-file-icon-document-downloading-concept_100456-952.jpg?w=2000" alt="Error" width="200" height="200">
+</a>
+    <br><hr>
+
+    <!--to add Image (Relative Path "From Storage")-->
+    <img src="./IMAGE/ayush.png.jpeg" alt="deleted" height="200">
+
+    <br><hr>
+
+    <!--to make Image Clickable-->
+    <a href="https://www.google.com/search?q=lassan&oq=lassan&aqs=chrome..69i57j0i512l6j0i10i512j46i512j0i512.4573j0j15&sourceid=chrome&ie=UTF-8" target="_blank" title="Click Here"><img src="./IMAGE/1.webp" alt="Clickable--" height="100"></a>
+
+    <br><hr>
+<!--to use "webP" formate-->
+<picture>
+    <source srcset="./IMAGE/1.webP">
+    <source srcset="./IMAGE/2.jpg">
+    <img src="./IMAGE/2.jpg" alt="Test" width="200">
+</picture>
+<br><hr>
+<h3 style="color: blue;">Image Caption</h3>
+   <figure>
+    <img src="./IMAGE/2.jpg" alt="for Caption" width="300">
+    <figcaption>my Caption is Nothing</figcaption>
+   </figure>
+   <br><hr>
+  
+ <!--To use Span Tag and some sementic Tags (like header,main,footer,nav etc)
+    and non symentic tags (like div and Span)-->
+    <h3 style="color: blue;">Symentic and Non-symentic</h3>
+ <header>
+    <P>this is my <span style="color: red;">First</span>  <strong>website</strong></P>
+    <P>this is my <div style="color: red;">First</div>  <strong>website</strong></P>
+ 
+ </header>
+
+ <main>
+    <nav> <p> my <span style="background-color: yellow;">Home</span></p></nav>
+ </main>
+<footer>
+    <p><a href="tel:9993375092" title="call Here">001</a></p>
+</footer>
+    <br><hr>
+    <h3 style="color: Blue;">Lists</h3>
+    <!--List Unodered  (styles are Circle,Disk,Square
+         in atb "style=List-style-type")-->
+    <ul>
+        <li>
+            Home
+        </li>
+        <li>Links</li>
+    </ul>
+    <br>
+    <ul style="list-style-type: circle;">
+        <li>Home</li>
+        <li>Links</li>
+
+    </ul>
+<br>
+    <ul style="list-style-type: square;">
+        <li>Home</li>
+        <li>Links</li>
+
+    </ul>
+    <br><hr>
+<!--Ordered List (style are 1,A,a,Roman Num. small Roman no.
+    in Atb type="" ) -->
+<ol>
+    <li>Home</li>
+    <li>Links</li>
+</ol>
+<br>
+<ol type="A">
+
+    <li>Home</li>
+    <li>Links</li>
+</ol>
+<br>
+<ol type="a">
+    <li>Home</li>
+    <li>Links</li>
+
+</ol>
+<br>
+<ol type="I">
+    <li>Home</li>
+    <li>Links</li>
+</ol>
+<br>
+<ol type="i">
+    <li>Home</li>
+    <li>Links</li>
+</ol>
+<br><hr>
+
+<!--Practice List -->
+<h3 style="color: green;">Practice</h3>
+<ul style="list-style-type: square;">
+    <li>HTML
+        <ul style="list-style-type: circle;">
+            <li>HTML Semantic Layout </li>
+            <li>Semantic Element
+                <ol>
+                    <li>Header</li>
+                    <li>Footer</li>
+                </ol>
+            </li>
+            <li>Non Sementic Element
+                <ol>
+                    <li>Div</li>
+                    <li>Span</li>
+                </ol>
+            </li>
+        </ul>
+    </li>
+    
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+<br><hr>
+<h3><span style="color: Blue;">Table</span></h3>
+<!--Tables-->
+<!--first Table Head (thead)-->
+<!--for line (atb Border=1)
+for space (cellspacing="no.")-->
+<table border="1" cellspacing="0" cellpadding="7">
+    <thead>
+        <tr>
+            <!--for heading (th)-->
+            <th>Name</th>
+            <th>roll Number</th>
+        </tr>
+    </thead>
+    <!--for Body (Tbody)-->
+    <tbody>
+        <tr>
+            <!--for Data (td)-->
+            <td>
+                aayush
+            </td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>Rahul</td>
+            <td>6</td>
+        </tr>
+    </tbody>
+</table>
+<br><hr>
+
+<!-- Parctice  -->
+<h3 style="color: green;">Practice</h3>
+
+<table border="1" cellspacing="0" cellpadding="5">
+    <thead >
+        <tr>
+        <th colspan="7"><b>Time Table</b></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th rowspan="7">Hour</th>
+            <th>Mon</th>
+            <th>tue</th>
+            <th>wed</th>
+            <th>thr</th>
+            <th>fri</th>
+            <th>sat</th>
+            
+        </tr>
+        <tr>
+           
+            <td>math</td>
+            <td>math</td>
+            <td>math</td>
+            <td>math</td>
+            <td>math</td>
+            <td>science</td>
+            
+        </tr>
+        <tr>
+           
+            <td>math</td>
+            <td>math</td>
+            <td>math</td>
+            <td>math</td>
+            <td>math</td>
+            <td>science</td>
+            
+        </tr>
+         <tr>
+            <th colspan="6">Lunch</th>
+         </tr>
+         <tr>
+           
+            <td>math</td>
+            <td>math</td>
+            <td>math</td>
+            <td>math</td>
+            <td>math</td>
+            <td rowspan="2">Games</td>
+            
+        </tr>
+        <tr>
+           
+           
+            <td>math</td>
+            <td>math</td>
+            <td>math</td>
+            <td>math</td>
+            <td>math</td>
+           
+            
+        </tr>
+    </tbody>
+</table>
+<br><hr>
+
+<h3 style="color: red;">Forms</h3>
+<!-- Forms -->
+<form action="">
+<label for="Name">name</label>
+    <input type="text" id="Name" >
+</form> 
+<br>
+<!-- to add a default value -->
+<form action="">
+
+    <input type="text" value="Username">
+</form>
+<br>
+<!-- to add a maximum Value -->
+<form action="">
+<label for="Number">Number</label>
+    <input type="text" id="Number" maxlength="10">
+</form>
+<br>
+<!-- to set value for prmanent -->
+
+<form action="">
+<label for="Name">name</label>
+    <input type="text" id="Name" value="Aayush" readonly disabled>
+</form>
+<br>
+<!-- to add to min and max date system -->
+<label for="DOB">DoB</label>
+<input type="date" id="DoB" min="2000-01-01" max="2022-01-01">
+<br><br>
+<!-- to enter quantity -->
+<label for="Q">Quantity</label>
+<input type="number" id="Q" name="Quantity" min="1" max="5">
+<br><br>
+<!-- t0 add feature of choocing files -->
+<form action="">
+    <label for="file">file</label>
+    <input type="file" id="file" multiple>
+</form>
+<br>
+<!-- to Add Automatic Removable Text -->
+<!--  to add not empty feature (usde "Required")-->
+<!--  to use BY Default curser feature use "AutoFocus"-->
+<!-- TO add suggestions mode in the form Use "autocomplete='on/off" -->
+<form action="">
+   <input type="email" placeholder="Email" required  autocomplete="off" >
+</form>
+<br>
+<!-- to add options/list in Forms -->
+<form action="">
+    <input list="browsers" name="Browsers" placeholder="select Browser" autocomplete="off">
+    <datalist id="browsers">
+        <option value="Chrome"></option>
+        <option value="UC Browsers"></option>
+
+    </datalist>
+    <br> <br>
+</form>
+<!-- to add a selection use "Select" -->
+<label for="Cars">Select a car</label>
+<select name="Cars" id="Cars" >
+<option value="BMW">BMW</option>
+<option value="Nano">Nano</option>
+<option value="Thar">Thar</option>
+<option value="Audi">Audi</option>
+</select>
+<br><br>
+<!-- Using textarea -->
+<!-- <label for="Name">Write Here</label> -->
+<textarea name="Name" id="Name" cols="30" rows="10" placeholder="Write here" ></textarea>
+<br><br>
+<!-- to use Button -->
+<button onclick="alert('fuckoff')" style="color: rgb(77, 19, 134); background-color: blanchedalmond; height: 200; ">click hERE</button>
+
+<!-- to make A full fledged Form use "fieldset" -->
+<fieldset>
+    <!-- for Heading use "Legend" -->
+    <legend>
+<h3>Form</h3>
+    </legend>
+    <input type="text" placeholder=" First Namer" autocomplete="off"><br>
+<br>
+    <input type="text"  placeholder="Last Name" autocomplete="off"><br><br>
+    <input type="Password" placeholder="Password" autocomplete="off"><br><br>
+   <!-- for Submit Btn  -->
+    <input type="submit" value="Submit">
+</fieldset>
+<br><hr>
+<h3 style="color: blue;">Iframe</h3>
+<!-- to use othrs website things -->
+
+<iframe width="460" height="315" 
+src="https://www.youtube.com/embed/KCSNFZKbhZE" 
+title="YouTube video player" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+ allowfullscreen>yt video
+</iframe>
+<br>
+<br><br>
+<iframe src="https://en.wikipedia.org/wiki/Narendra_Modi" frameborder="0"
+height="300"
+width="600"></iframe>
+<br><br>
+<!-- TO add a local file/Relative Path -->
+<iframe src="./IMAGE/HTML Codes.pdf" frameborder="0"
+height="400" width="600"></iframe>
+<br><hr>
+<h3 style="color: Blue;">video</h3>
+<!-- Starting Videos -->
+<!-- use Atb "controls" to Play
+use "Autoplay" and Loop  and "Muted"-->
+<video height="300"  controls loop>
+    <source src="./IMAGE/ocean animation.mp4">
+    <!-- Always use Webp video also -->
+    Not support
+</video>
+<br><hr>
+<!-- Audio -->
+<h3 style="color: blue;">Audio</h3>
+<audio src="./IMAGE/english english.mp3" controls >
+    <!-- <source src="./IMAGE/english english.mp3" type="Music" ( this Method 
+        is Not Working)> -->
+    Non Saported Music</audio>
+    
+</body>
+</html>
